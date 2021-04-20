@@ -1,0 +1,160 @@
+@font-face {
+    font-family: "Montserrat-Bold";
+    src: url(./fonts/Montserrat-Bold.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Montserrat-Light";
+    src: url(./fonts/Montserrat-Light.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Montserrat-SemiBold";
+    src: url(./fonts/Montserrat-SemiBold.ttf) format("truetype");
+}
+
+body{
+    background-color: #DDD6CC;
+}
+
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.image img{
+    width: 590px;
+    height: 146px;
+}
+
+::placeholder{
+    font-family: "Montserrat-Light";
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.registrationBlock{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 40%;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 0 auto;
+    height: 520px;
+    box-shadow: 0 0 4px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.text{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.maintext{
+    font-family: "Montserrat-Bold";
+    font-size: 36px;
+}
+
+#username{
+    height: 50px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    width: 400px;
+    margin: 15px 0;
+}
+
+#loginInput{
+    height: 50px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    width: 400px;
+}
+
+
+.registrationBlock button{
+    width: 250px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #AD9B87;
+    outline: none;
+    border: 0;
+}
+
+.passwords{
+    display: flex;
+    justify-content: space-around;
+}
+
+.passwords input{
+    height: 50px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    width: 185px;
+    margin: 15px;
+}
+
+#emailBlock{
+    display: flex;
+    align-items: center;
+    width: 430px;
+}
+
+#confirmCode{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#emailBlock input{
+    height: 50px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    width: 185px;
+    margin: 15px;
+}
+
+#confirmCode input{
+    height: 50px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    width: 185px;
+    margin: 15px;
+}
+
+
+#myBtn{
+    font-family: "Montserrat-SemiBold";
+    color: white;
+    width: 160px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #AD9B87;
+    outline: none;
+    border: 0;
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+#btn{
+    font-family: "Montserrat-SemiBold";
+    color: white;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+input{
+    background-color: #F3EDDF;
+    box-sizing: border-box;
+    padding: 0 10px;
+}

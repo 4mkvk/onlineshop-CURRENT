@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+        </script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header id="header">
+        <div id="logo">
+            <img src="img/logo.png" alt="" id="logoImg">
+        </div>
+        <div id="menuP">
+            <ul class="menu">
+                <li class="menuPunkt"><a href="index.html" class="white">Главная</a></li>
+                <li class="menuPunkt"><a href="#" class="white">Каталог</a></li>
+                <li class="menuPunkt"><a href="aboutUs.html" class="white">О нас</a></li>
+                <li class="menuPunkt"><a href="cart.html" class="white">Корзина</a></li>
+                <li class="menuPunkt"><a href="login.html" id="link" class="white">Выйти</a></li>
+            </ul>
+        </div>
+    </header>
+    <h2 class="h2 white">Какие виды товаров мы вам предлагаем?</h2>
+
+    <div class="cards slider">
+        <div class="card">
+            <img src="img/image 0.png" alt="" class="image">
+            <div class="text">
+                <h3 class="h3">КОСМЕТИКА</h3>
+                <p>Широкий выбор косметики, работаем с брендом <span>Nyx</span>, <span>AlibabaCosmetics</span></p>
+            </div>
+            <button class="btn" onclick="katalog()">Перейти в каталог</button>
+        </div>
+        <div class="card">
+            <img src="img/image 1.png" alt="" class="image">
+            <div class="text">
+                <h3 class="h3">ЭЛЕКТРОНИКА</h3>
+                <p>Предлагаем вам самую
+                    <span>лучшую</span> электронику по
+                    <span>доступным</span> ценам
+                </p>
+            </div>
+            <button class="btn" onclick="katalog()">Перейти в каталог</button>
+        </div>
+        <div class="card">
+            <img src="img/image 2.png" alt="" class="image">
+            <div class="text">
+                <h3 class="h3">СПОРТ-ТОВАРЫ</h3>
+                <p>Спортивные товары лучшего качества, подойдут и <span>профессионалам</span>, и <span>новичкам</span>
+                </p>
+
+            </div>
+            <button class="btn" onclick="katalog()">Перейти в каталог</button>
+        </div>
+        <div class="card">
+            <img src="img/image 3.png" alt="" class="image">
+            <div class="text">
+                <h3 class="h3">КАНЦЕЛЯРИЯ</h3>
+                <p>Канцелярия из <span>abdi</span> и <span>Леонардо</span>. Разнообразный выбор и лучшие цены.</p>
+            </div>
+            <button class="btn" onclick="katalog()">Перейти в каталог</button>
+        </div>
+        <div class="card">
+            <img src="img/image 4.png" alt="" class="image">
+            <div class="text">
+                <h3 class="h3">ОДЕЖДА</h3>
+                <p>Разные бренды одежды <span>высокого</span> качества. Работаем с известными брендами.</p>
+            </div>
+            <button class="btn" onclick="katalog()">Перейти в каталог</button>
+        </div>
+    </div>
+    <div id="aboutUs">
+        <h2 class="h2">О нас</h2>
+        <div id="info_aboutUs">
+            <div class="info">
+                <div class="logo_aboutUs">
+                    <img src="img/logoau1.png" alt="" class="img_aboutUs">
+                </div>
+                <div class="text">
+                    <p>Компания Welt является <span>абсолютным лидером</span> среди онлайн магазинов на протяжении пяти
+                        лет.</p>
+                </div>
+            </div>
+            <div class="info">
+                <div class="logo_aboutUs">
+                    <img src="img/logoau2.png" alt="" class="img_aboutUs">
+                </div>
+                <div class="text">
+                    <p>Самое кратчайшее время поставок товаров среди онлайн магазинов. Среднее время доставки товара -
+                        <span>3 дня.</span>
+                    </p>
+                </div>
+            </div>
+            <div class="info">
+                <div class="logo_aboutUs">
+                    <img src="img/logoau3.png" alt="" class="img_aboutUs">
+                </div>
+                <div class="text">
+                    <p>Работаем свыше <span>10 лет</span> и имеем более двух тысяч <span>положительных </span>отзывов и
+                        огромное количество проданных вещей</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="catalog">
+        <div id="items" class="slider">
+            <div class="item">
+                <img src="img/item1.png" alt="" class="itemImage">
+                <div class="itemText">
+                    <h3 class="h3">IPhone X</h3>
+                    <p><span>Цена:</span> 250000 KZT</p>
+                    <p><span>Характеристики:</span> 256ГБ оперативки и и 620гб памяти</p>
+                    <p><span>Цвет:</span> Черный</p>
+                </div>
+                <button class="btn">В корзину</button>
+            </div>
+            <div class="item">
+                <img src="img/item1.png" alt="" class="itemImage">
+                <div class="itemText">
+                    <h3 class="h3">IPhone X</h3>
+                    <p><span>Цена:</span> 250000 KZT</p>
+                    <p><span>Характеристики:</span> 256ГБ оперативки и 620гб памяти</p>
+                    <p><span>Цвет:</span> Черный</p>
+                </div>
+                <button class="btn">В корзину</button>
+            </div>
+            <div class="item">
+
+                <img src="img/item2.png" alt="" class="itemImage">
+
+                <div class="itemText">
+                    <h3 class="h3">NYX lipstick</h3>
+                    <p><span>Цена:</span> 12000 KZT</p>
+                    <p><span>Характеристики:</span> Бомбовая помада честно говоря</p>
+                    <p><span>Цвет:</span> Розовый, красный, бежевый и т.д</p>
+                </div>
+                <button class="btn">В корзину</button>
+            </div>
+            <div class="item">
+
+                <img src="img/item3.png" alt="" class="itemImage">
+
+                <div class="itemText">
+                    <h3 class="h3">Boxing gloves UFC</h3>
+                    <p><span>Цена:</span> 8000 KZT</p>
+                    <p><span>Характеристики:</span> Удобные, качественные перчатки</p>
+                    <p><span>Цвет:</span> Черный, красный.</p>
+                </div>
+                <button class="btn">В корзину</button>
+            </div>
+            <div class="item">
+
+                <img src="img/item3.png" alt="" class="itemImage">
+
+                <div class="itemText">
+                    <h3 class="h3">Boxing gloves UFC</h3>
+                    <p><span>Цена:</span> 8000 KZT</p>
+                    <p><span>Характеристики:</span> Удобные, качественные перчатки</p>
+                    <p><span>Цвет:</span> Черный, красный.</p>
+                </div>
+                <button class="btn">В корзину</button>
+            </div>
+        </div>
+    </div>
+    <footer id="footer">
+        <div id="logo">
+            <img src="img/logo.png" alt="" id="logoImg">
+        </div>
+        <div class="menu">
+            <ul class="fMenu">
+                <li class="mfPunkt"><a href="">Каталог</a></li>
+                <li class="mfPunkt"><a href="">О нас</a></li>
+            </ul>
+            <ul class="fMenuImg">
+                <li class="mfPunkt"><img src="img/fImg1.png" alt="" class="fImg"></li>
+                <li class="mfPunkt"><img src="img/fImg2.png" alt="" class="fImg"></li>
+            </ul>
+            <ul class="fMenuNum">
+                <li class="mfPunkt"><a href="">+7(888)992-27-95</a></li>
+                <li class="mfPunkt"><a href="">+7(267)212-29-41</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="slick.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="registration.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="image">
+        <img src="img/logo-inputs.png" alt="">
+    </div>
+    <div class="main">
+        <div class="registrationBlock">
+            <div class="text">
+                <h1 class="maintext">Sign up</h1>
+            </div>
+            <input type="text" id="username" placeholder="Введите имя и фамилию">
+            <input type="text" id="loginInput" placeholder="Введите логин">
+            <div class="passwords">
+                <input type="password" id="passwordInput" placeholder="Введите пароль">
+                <input type="password" id="passwordInput2" placeholder="Повторите пароль">
+            </div>
+            <div id="emailBlock">
+                <input type="email" id="userEmail" placeholder="E-mail"> <br>
+                <button id="myBtn"> Send code </button>
+            </div>
+
+            <div id="confirmCode">
+                <p id="message"></p>
+                <input type="text" id="code" placeholder="Your code"> <br>
+            </div>
+
+            <button id="btn">Зарегистрироваться</button>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script src="registration.js"></script>
+</body>
+
+</html>
